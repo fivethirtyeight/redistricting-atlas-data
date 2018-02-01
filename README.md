@@ -1,7 +1,7 @@
 This repository contains data used in [The Atlas Of Redistricting](https://projects.fivethirtyeight.com/redistricting-maps/). [Read more](https://fivethirtyeight.com/features/we-drew-2568-congressional-districts-by-hand-heres-how) about the project.
 
 ### [shp/](shp)
-This directory contains shapefiles for all the maps used in the project. The shapefiles for current districts are those used in the 115th Congress, and are based on [Cartographic Boundary Shapefiles](https://www.census.gov/geo/maps-data/data/cbf/cbf_cds.html) from the Census Bureau, with some adjustments for water features.
+This directory contains shapefiles for all the maps used in the project. The shapefiles for current districts are those used in the 115th Congress, and are based on [Cartographic Boundary Shapefiles](https://www.census.gov/geo/maps-data/data/cbf/cbf_cds.html) from the Census Bureau, with some adjustments for water features. In cases where the current congressional map fulfilled the goals of a custom map, a shapefile is not included. (See the `current_map` column of `districts.csv` for maps where this is the case.)
 
 ### [drf/](drf)
 This directory contains XML files (with a `.drf` extension) for use in [Dave's Redistricting App](http://gardow.com/davebradlee/redistricting/launchapp.html), which was used to draw the custom districts for this project. In cases where the current congressional map fulfilled the goals of a custom map, a DRF file is not included. (See the `current_map` column of `districts.csv` for maps where this is the case.)
